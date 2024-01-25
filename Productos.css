@@ -1,0 +1,92 @@
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: coral;
+}
+
+.ListaVisualProducto li{
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+.ListaVisualProducto li:hover{
+    border-color: coral;
+}
+
+.ListaVisualProducto{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.ListaVisualProducto h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ListaVisualProducto li:hover h2{
+    font-size: 33px;
+}
+
+.ProductoDescription{
+    font-size: 18px;
+
+}
+
+.productoPrecio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#PieDePagina{
+    text-align: center;
+    background: url(Img/bg.jpg);
+    padding-bottom: 40px;
+}
+
+#PieDePagina p{
+    color: aliceblue;
+    font-size: 13px;
+    margin-top: 20px;
+}
