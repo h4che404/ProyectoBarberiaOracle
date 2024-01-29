@@ -1,0 +1,118 @@
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline-flex;
+    margin: 0 0 0 15px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+:root{margin: 0px;
+    background-color: #181a1b
+}
+
+nav a:hover{
+    color: coral;
+    transition: 250ms;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+  
+
+
+main{
+    width: auto;
+    background-color: #181a1b;
+}
+
+form{
+    margin: 40px;
+
+}
+
+form label, form p{
+    display: block;
+    margin: 2px;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+textarea{
+    background-color: #181a1b;
+    color: aliceblue;
+}
+
+.input-padron{
+    display: block;
+    margin: 2px;
+    padding: 10px 25px;
+    width: 30%;
+    border-color: orangered;
+    background-color: #181a1b;
+    color: aliceblue;
+}
+
+#BottonEnviar{
+    background-color: chocolate;
+    border-radius: 20px;
+    transition: 100ms;
+}
+
+#BottonEnviar:hover{
+    font-size: 15px;
+    width: 40;
+    padding: 15px 30px;
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+.Checkbox{
+    margin: 20px ;
+}
+
+.List{
+    padding-bottom: 20px;
+}
+
+
+
+#PieDePagina{
+    text-align: center;
+    background: url(Img/bg.jpg);
+    padding-bottom: 40px;
+}
+
+#PieDePagina p{
+    color: aliceblue;
+    font-size: 13px;
+    margin-top: 20px;
+}

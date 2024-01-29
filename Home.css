@@ -1,0 +1,85 @@
+.HeaderDiv{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+    background: url(Img/bannerBarb.jpg);
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: coral;
+}
+
+*:root{
+    background-color: #191f25;
+}
+
+#CentrarImagen{
+    text-align: center;
+}
+
+#PortadaBarberia{
+    width: 60%;
+    height: 30%;
+}
+
+p{
+    text-align: center;
+    color: rgb(185, 185, 174);
+}
+
+
+#TituloSecundario{
+    text-align: center;
+    color: beige;
+}
+
+.Listas{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+
+}
+
+#ReferenciaLista{
+    width: flex;
+    height: flex;
+}
+
+#PieDePagina{
+    text-align: center;
+    background: url(Img/bg.jpg);
+    padding-bottom: 40px;
+}
+
+#PieDePagina p{
+    color: aliceblue;
+    font-size: 13px;
+    margin-top: 20px;
+}
